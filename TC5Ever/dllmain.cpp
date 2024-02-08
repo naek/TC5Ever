@@ -66,8 +66,8 @@ void Main() {
 	std::vector<std::string> args = settings::Args();
 
 
-	std::string address = "127.0.0.1"s;
-	std::string playside = "1"s;
+	std::string address = "192.168.1.91"s;
+	std::string playside = "2"s;
 
 	std::cout << "Args: " << std::endl;
 	for (std::string arg : args) {
